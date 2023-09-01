@@ -3,32 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maelin Travel</title>
+    <title>Welcome to Maelin Travel</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- slider swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
     <header>
         <h1>Welcome to Maelin Travel</h1>
-        <p>Your Gateway to Exciting Adventures</p>
+        <p>Your journey begins here.</p>
     </header>
 
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#destinations">Destinations</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
-    <div id="content">
-        <!-- Content from different pages will be loaded here dynamically -->
-    </div>
+    <section class="featured">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="santorini.jpg" alt="Santorini, Greece">
+                    <div class="slide-text">
+                        <h3>Santorini, Greece</h3>
+                        <p>Experience the stunning beauty of Santorini's sunsets and charming villages.</p>
+                    </div>
+                </div>
+
+                <!-- Add more slides here -->
+                <div class="swiper-slide">
+                    <img src="paris.jpg" alt="Paris, France">
+                    <div class="slide-text">
+                        <h3>Paris, France</h3>
+                        <p>Explore the romantic streets of Paris and enjoy world-class cuisine.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="tokyo.jpg" alt="Tokyo, Japan">
+                    <div class="slide-text">
+                        <h3>Tokyo, Japan</h3>
+                        <p>Experience the vibrant culture of Tokyo and its modern marvels.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="new-york.jpg" alt="New York City, USA">
+                    <div class="slide-text">
+                        <h3>New York City, USA</h3>
+                        <p>Discover the city that never sleeps and iconic landmarks of NYC.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add pagination and navigation controls inside the swiper-container -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <section class="services">
+        <!-- ... Your services section remains the same ... -->
+    </section>
+
+    <section class="about">
+        <!-- ... Your about section remains the same ... -->
+    </section>
+
+    <section class="contact">
+        <!-- ... Your contact section remains the same ... -->
+    </section>
 
     <footer>
         <p>&copy; 2023 Maelin Travel</p>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="slider.js"></script>
 </body>
 </html>
