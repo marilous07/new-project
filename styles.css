@@ -1,0 +1,140 @@
+/* Reset του standard στυλ του περιεχομένου σειράς */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Βασικός στυλ της σελίδας */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Επικεφαλίδα */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+/* Πλοήγηση */
+nav ul {
+    background-color: #333;
+    list-style: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Κεντρικό περιεχόμενο */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+/* Υποσέλιδο */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Στυλ για τη σελίδα About Us */
+.about-us-content {
+    background-color: #f9f9f9;
+    padding: 2rem;
+}
+
+/* Στυλ για τη σελίδα Destinations */
+.destinations-list {
+    list-style: none;
+    padding: 0;
+}
+
+.destinations-list li {
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.destinations-list h3 {
+    font-size: 1.2rem;
+}
+
+.destinations-list p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* Στυλ για τη σελίδα Contact */
+.contact-form {
+    padding: 2rem;
+}
+
+.contact-form label {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
